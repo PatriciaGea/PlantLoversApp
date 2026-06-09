@@ -23,7 +23,7 @@ import com.example.plantloversapp.model.Plant
 @Composable
 fun PlantCard(
     plant: Plant
-){
+) {
     var expanded by remember {
         mutableStateOf(false)
     }
